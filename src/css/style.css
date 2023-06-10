@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;800&display=swap');
+
+body {
+    font-family: 'Public Sans', sans-serif;
+}
+
+picture {
+    display: flex;
+    margin: 30px 0 0 45px;
+}
+.logo-name-general {
+    display: flex;
+}
+.logo-name-general .bank-name {
+    align-self: center;
+    margin-left: 6px;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+
+.container {
+    display: flex;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.navigation {
+    display: flex;
+}
+
+.navigation-general {
+    display: flex;
+    margin: 49px 39px 0 0;
+}
+
+.navigation-items {
+    margin-left: 30px;
+    padding: 11px 6px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.navigation-general .navigation-items.navigation-item2 {
+    background-color: #5BC241;
+    color: #ffffff;
+   
+}
+
+.navigation-general .navigation-items.navigation-item6 {
+    padding: 11px 15px;
+    background-color: #5BC241;
+    border-radius: 10px;
+    color: #ffffff;
+}

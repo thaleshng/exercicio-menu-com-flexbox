@@ -1,0 +1,69 @@
+@media (max-width: 800px) {
+    .menu {
+        display: block;
+    }
+
+    picture {
+        justify-content: center;
+        margin: 50px 0 100px 0;
+    }
+
+    .bank-name {
+        font-size: 40px;
+    }
+    
+    nav{
+        display: block;
+        justify-content: center;
+        text-align: center;
+        
+    }
+
+    .navigation-general {
+        display: block;
+        margin: 0;
+    }
+
+    .navigation-items {
+        font-size: 40px;
+        margin: 0;
+        padding: 0;
+        
+    }
+    
+    li { 
+        margin-bottom: 50px;
+    }
+
+
+    .navigation-items.navigation-item2 {
+        padding: 17px 40px;
+    }
+
+    .navigation-general .navigation-items.navigation-item6 { 
+        font-size: 18px;
+        padding: 15px 22px;
+    }
+}
+
+@media (min-width:800px) and (hover: hover) {
+  
+    .navigation-general .navigation-items.navigation-item2:hover,
+    .navigation-general .navigation-items.navigation-item6:hover {
+        box-shadow: 0 5px 15px;
+        color: black;
+        font-size: 1.1em;
+    }
+    
+    .navigation-general .navigation-items.navigation-item1:hover,
+    .navigation-general .navigation-items.navigation-item3:hover,
+    .navigation-general .navigation-items.navigation-item4:hover,
+    .navigation-general .navigation-items.navigation-item5:hover {
+        font-size: 1.1em;
+    }
+    
+    .logo-name-general:hover {
+        scale: 1.05;
+    }
+
+}
